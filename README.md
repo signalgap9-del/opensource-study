@@ -128,6 +128,14 @@ developer / CI
 - `SPDX`, `CycloneDX`, `relationship`, `license`, `format`
 - `file_fetcher`, `file_parser`, `update_checker`, `native_helpers`, `monkey patch`
 
+## PR case studies
+
+| 프로젝트 | PR | 상태 | 왜 보는가 |
+| --- | --- | --- | --- |
+| dependabot-core | [#15187](notes/prs/dependabot-core-15187.md) | open, changes requested | C# file-based app 지원에서 parser, SDK semantics, dependency solver, experiment flag 정책이 어떻게 충돌하는지 보기 |
+
+통과된 PR을 볼 때는 `is:pr is:merged` 검색으로 시작하고, 아직 안 통과된 PR은 `changes requested`에서 설계 갈등을 본다.
+
 ## 첫 번째 깊게 팔 주제
 
 Rekor의 Merkle Tree inclusion proof부터 시작한다.
